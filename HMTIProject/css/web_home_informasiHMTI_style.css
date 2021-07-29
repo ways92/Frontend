@@ -1,0 +1,280 @@
+.dropend:hover > .dropdown-menu {
+  display: block;
+  left: 98%;
+}
+.profil {
+  height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.profil li {
+  margin: 15px;
+}
+
+.dropatas {
+  height: 242px;
+  width: 250px;
+  margin-left: auto;
+  border-radius: 0;
+}
+
+.drop1 {
+  width: 250px;
+  top: -9px;
+  border-radius: 0;
+}
+
+.drop2 {
+  width: 250px;
+  height: 242px;
+  top: -63px;
+  border-radius: 0;
+}
+
+.logo {
+  width: 100px;
+}
+.dropdownn {
+  padding: 10px;
+  font-size: 20px;
+}
+.bg {
+  background-color: black;
+  height: 444px;
+}
+
+.bg_kecil {
+  background-color: black;
+  height: 25px;
+  padding-top: 7px;
+}
+
+.bg_tulisan {
+  font-size: 15px;
+}
+
+/* Style the tab */
+.tab {
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  transition: 0.3s;
+  font-size: 12px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  color: rgb(95, 95, 95);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  color: rgb(124, 0, 27);
+
+  border-bottom: 3px solid rgb(124, 0, 27);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+
+  border-top: none;
+}
+
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.kartu {
+  margin-top: 78px;
+  height: 180px;
+  width: 300px;
+  border-radius: 20px;
+}
+.poto {
+  background-color: gray;
+  height: 120px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.garis_footer {
+  margin-top: 300px;
+}
+
+.logo_footer {
+  width: 65px;
+}
+.baris_footer {
+  margin-top: 20px;
+}
+
+@media (min-width: 750px) {
+  .dropatas li {
+    font-size: 20px;
+  }
+  .bg-pp {
+    background-image: url("../img/gedung.jpg");
+    background-size: 700px 400px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+
+  .profil {
+    height: 400px;
+    width: 1000px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: -300px;
+  }
+  .profil li {
+    margin: 15px;
+    font-size: 20px;
+    width: 250px;
+  }
+  .bg_kecil {
+    background-color: black;
+    height: 50px;
+  }
+  .bg_tulisan {
+    font-size: 20px;
+  }
+
+  /* Style the tab */
+  .tab {
+    margin-top: 100px;
+    overflow: hidden;
+  }
+
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-bottom: 5px solid rgb(124, 124, 124);
+  }
+
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    color: rgb(95, 95, 95);
+  }
+
+  /* Create an active/current tablink class */
+  .tab button.active {
+    color: rgb(153, 0, 33);
+
+    border-bottom: 5px solid rgb(153, 0, 33);
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+
+    border-top: none;
+  }
+
+  .tracking-in-expand {
+    -webkit-animation: tracking-in-expand 0.7s
+      cubic-bezier(0.215, 0.61, 0.355, 1) both;
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  }
+
+  @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .dropatas {
+    height: 400px;
+    width: 250px;
+    margin-left: -150px;
+    border-radius: 0;
+  }
+  .drop1 a {
+    margin-bottom: 10px;
+  }
+
+  .drop1 {
+    width: 300px;
+    height: 400px;
+    top: -9px;
+    border-radius: 0;
+    font-size: 20px;
+  }
+
+  .drop2 a {
+    margin-bottom: 10px;
+  }
+  .drop2 {
+    width: 300px;
+    height: 400.5px;
+    top: -63px;
+    border-radius: 0;
+    font-size: 20px;
+  }
+  .jarakfooter {
+    margin-top: 500px;
+  }
+}

@@ -1,0 +1,168 @@
+.dropend:hover > .dropdown-menu {
+  display: block;
+  left: 98%;
+}
+.profil {
+  height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.profil li {
+  margin: 15px;
+}
+
+.dropatas {
+  height: 242px;
+  width: 250px;
+  margin-left: -100px;
+  border-radius: 0;
+}
+
+.drop1 {
+  width: 250px;
+  height: 242px;
+  top: -9px;
+  border-radius: 0;
+  font-size: 20px;
+}
+
+.drop2 {
+  width: 250px;
+  height: 242px;
+  top: -63px;
+  border-radius: 0;
+}
+
+.logo {
+  width: 100px;
+}
+.dropdownn {
+  padding: 10px;
+  font-size: 20px;
+}
+.bg_kecil {
+  background-color: black;
+  height: 50px;
+}
+.bg_tulisan {
+  font-size: 20px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.carousel-item img {
+  max-height: 800px;
+}
+
+.community-content {
+  display: relative;
+}
+
+.sidebar {
+  max-height: 90%;
+  overflow-y: scroll;
+}
+
+.accordion {
+  color: #444;
+  width: 100%;
+  transition: 0.4s;
+}
+
+.panel {
+  width: 100%;
+  display: none;
+  background-color: white;
+}
+
+.poto {
+  background-color: gray;
+  height: 150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.garis_footer {
+  background-color: gray;
+  height: 1px;
+}
+
+.logo_footer {
+  width: 65px;
+}
+.baris_footer {
+  margin-top: 20px;
+}
+.aktifabang {
+  color: red;
+}
+.kandel a {
+  font-weight: 500;
+}
+@media (min-width: 750px) {
+  .dropatas li {
+    font-size: 20px;
+  }
+  .bg-pp {
+    background-image: url("img/gedung.jpg");
+    background-size: 700px 400px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+
+  .profil {
+    height: 400px;
+    width: 1000px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: -300px;
+  }
+  .profil li {
+    margin: 15px;
+    font-size: 20px;
+    width: 250px;
+  }
+
+  .dropatas {
+    height: 400px;
+    width: 250px;
+    margin-left: -200px;
+    border-radius: 0;
+  }
+  .drop1 a {
+    margin-bottom: 10px;
+  }
+
+  .drop1 {
+    width: 350px;
+    height: 400px;
+    top: -9px;
+    border-radius: 0;
+    font-size: 20px;
+  }
+
+  .drop2 a {
+    margin-bottom: 10px;
+  }
+  .drop2 {
+    width: 350px;
+    height: 400.5px;
+    top: -63px;
+    border-radius: 0;
+    font-size: 20px;
+  }
+  .sidebar {
+    width: 300px;
+    max-height: 90%;
+    overflow-y: scroll;
+  }
+  .kandel a,
+  button {
+    font-weight: 500;
+  }
+  .aktifabang {
+    color: rgb(153, 2, 2) !important;
+  }
+}

@@ -1,0 +1,202 @@
+.dropend:hover > .dropdown-menu {
+  display: block;
+  left: 98%;
+}
+.profil {
+  height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.profil li {
+  margin: 15px;
+}
+
+.dropatas {
+  height: 242px;
+  width: 250px;
+  margin-left: -100px;
+  border-radius: 0;
+}
+
+.drop1 {
+  width: 250px;
+  height: 242px;
+  top: -9px;
+  border-radius: 0;
+  font-size: 20px;
+}
+
+.drop2 {
+  width: 250px;
+  height: 242px;
+  top: -63px;
+  border-radius: 0;
+}
+
+.logo {
+  width: 100px;
+}
+.dropdownn {
+  padding: 10px;
+  font-size: 20px;
+}
+.bg_kecil {
+  height: 150px;
+}
+
+.bg_tulisan {
+  font-size: 25px;
+}
+.bg_besar {
+  height: 150px;
+  background-color: #b65b5b;
+}
+.logo2 {
+  width: 100px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* bagian kiri */
+.kiri {
+  background-color: lightgray;
+  width: auto;
+  font-size: 15px;
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+ol:hover {
+  background-color: gray;
+}
+ol {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 7px;
+}
+.aktif {
+  background-color: lightgray;
+}
+
+/* bagian kanan */
+
+.kartu {
+  margin-top: 50px;
+  height: 180px;
+  width: 320px;
+  border-radius: 20px;
+}
+.poto {
+  background-color: gray;
+  height: 120px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* desktop verison */
+@media (min-width: 750px) {
+  .dropatas li {
+    font-size: 20px;
+  }
+  .bg-pp {
+    background-image: url("../img/gedung.jpg");
+    background-size: 700px 400px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+
+  .profil {
+    height: 400px;
+    width: 1000px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: -300px;
+  }
+  .profil li {
+    margin: 15px;
+    font-size: 20px;
+    width: 250px;
+  }
+
+  .dropatas {
+    height: 400px;
+    width: 250px;
+    margin-left: -150px;
+    border-radius: 0;
+  }
+  .drop1 a {
+    margin-bottom: 10px;
+  }
+
+  .drop1 {
+    width: 350px;
+    height: 400px;
+    top: -9px;
+    border-radius: 0;
+    font-size: 20px;
+  }
+
+  .drop2 a {
+    margin-bottom: 10px;
+  }
+  .drop2 {
+    width: 350px;
+    height: 400.5px;
+    top: -63px;
+    border-radius: 0;
+    font-size: 20px;
+  }
+
+  .bg_kecil {
+    height: 224px;
+  }
+
+  .bg_besar {
+    height: 224px;
+    background-color: #b65b5b;
+  }
+
+  /* bagian kiri */
+  .kiri {
+    background-color: whitesmoke;
+    height: auto;
+    width: 300px;
+    font-size: 20px;
+
+    overflow-x: hidden;
+  }
+  ol:hover {
+    background-color: lightgray;
+  }
+  ol {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .aktif {
+    background-color: lightgray;
+  }
+
+  /* bagian kanan */
+
+  .logo2 {
+    width: 180px;
+  }
+  .bg_tulisan {
+    font-size: 50px;
+  }
+}
+
+.garis_footer {
+  background-color: gray;
+  height: 1px;
+}
+
+.logo_footer {
+  width: 65px;
+}
+.baris_footer {
+  margin-top: 20px;
+}

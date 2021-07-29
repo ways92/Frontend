@@ -1,0 +1,73 @@
+.gambar img {
+  position: relative;
+  z-index: 1;
+  width: 150px;
+  margin-top: 150px;
+}
+@media (min-width: 992px) {
+  .candi {
+    position: fixed;
+  }
+}
+.candi {
+  background-image: url(img/bg_candi.jpg);
+  /* background-repeat: no-repeat; */
+  background-position: fixed;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+}
+.candi .container {
+  z-index: 1;
+  position: relative;
+}
+.candi::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+.display h4 {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Rock Salt", cursive;
+  font-size: 32px;
+}
+.display h4 span {
+  color: darkorange;
+}
+
+.container p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: white;
+  text-align: center;
+}
+.tom1 {
+  width: 150px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: bold;
+  background: orange;
+  color: white;
+}
+.tom2 {
+  width: 150px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: bold;
+  border: 3px solid orange;
+  background: transparent;
+  color: orange;
+}
+
+.bawah {
+  margin-top: 50px;
+}

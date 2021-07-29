@@ -1,0 +1,148 @@
+.dropend:hover > .dropdown-menu {
+  display: block;
+  left: 98%;
+}
+body {
+  overflow-x: hidden;
+}
+/* .profil {
+  height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.profil li {
+  margin: 15px;
+} */
+
+.dropatas {
+  height: 242px;
+  width: 250px;
+  margin-left: auto;
+  border-radius: 0;
+}
+
+.drop1 {
+  width: 250px;
+  top: -9px;
+  border-radius: 0;
+}
+
+.drop2 {
+  width: 250px;
+  height: 242px;
+  top: -63px;
+  border-radius: 0;
+}
+
+.logo {
+  width: 100px;
+}
+.dropdownn {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.kartu {
+  margin-top: 50px;
+  height: 180px;
+  width: 300px;
+  border-radius: 20px;
+}
+.poto {
+  background-color: gray;
+  height: 120px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.label {
+  align-content: center;
+  font-size: 10px;
+  color: black;
+  margin-bottom: 50px;
+  margin-top: 200px;
+  background-color: rgb(151, 149, 149);
+  height: 30px;
+}
+.label h5 {
+  font-size: 10px;
+}
+
+.logo_footer {
+  width: 65px;
+}
+.baris_footer {
+  margin-top: 20px;
+}
+
+@media (min-width: 750px) {
+  body {
+    overflow-x: hidden;
+  }
+  .dropatas li {
+    font-size: 20px;
+  }
+  /* .bg-pp {
+    background-image: url("../img/gedung.jpg");
+    background-size: 700px 400px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+
+  .profil {
+    height: 400px;
+    width: 1000px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: -300px;
+  }
+  .profil li {
+    margin: 15px;
+    font-size: 20px;
+    width: 250px;
+  } */
+
+  .dropatas {
+    height: 400px;
+    width: 250px;
+    margin-left: -150px;
+    border-radius: 0;
+  }
+  .drop1 a {
+    margin-bottom: 10px;
+  }
+
+  .drop1 {
+    width: 350px;
+    height: 400px;
+    top: -9px;
+    border-radius: 0;
+    font-size: 20px;
+  }
+  .drop2 a {
+    margin-bottom: 10px;
+  }
+  .drop2 {
+    width: 300px;
+    height: 400.5px;
+    top: -63px;
+    border-radius: 0;
+    font-size: 20px;
+  }
+  .yutub {
+    width: 400px;
+    height: 200px;
+  }
+
+  .label {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 50px;
+    margin-top: 200px;
+    background-color: rgb(151, 149, 149);
+    height: 50px;
+  }
+
+  .label h5 {
+    font-size: 20px;
+  }
+}
