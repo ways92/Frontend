@@ -1,0 +1,24 @@
+{
+  "tugass": [
+    {
+      "mk": "Kalkulus",
+      "tg": "Sabtu",
+      "id": 1
+    },
+    {
+      "mk": "Database",
+      "tg": "Selasa",
+      "id": 2
+    },
+    {
+      "mk": "Pemograman Javascript",
+      "tg": "Sabtu",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "mk": "Rekayasa Perangkat Lunak",
+      "tg": "Jumat"
+    }
+  ]
+}
