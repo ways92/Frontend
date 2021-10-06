@@ -1,0 +1,5 @@
+for vue js : 
+runn npm serve
+
+for json server : 
+json-server db.json
